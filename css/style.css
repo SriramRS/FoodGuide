@@ -1,0 +1,44 @@
+nav ul li{
+  display:inline;
+  margin-right: 20px;
+}
+body{
+  background-color: #fff3e6;
+}
+.first{
+  background-color:#ffa94d;
+  height:100px;
+}
+.top{
+  background-image: url(../img/header4.jpg);
+  background-size: 100% 100%;
+  width:960px;
+  height:300px;
+  margin:auto;
+}
+.grid_6 h1{
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: 'Indie Flower', cursive ;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.grid_6 ul li{
+  position:relative;
+  top:20px;
+  font-family: 'Indie Flower', cursive ;
+  font-weight: bolder;
+  font-size: 24px;
+}
+a{
+  text-decoration: none;
+}
+
+.grid_6 ul li a:hover{
+  color:red;
+  font-size:26px;
+  font-weight: bold;
+}
+.grid_6 ul li{
+  overflow:hidden;
+}
