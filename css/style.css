@@ -1,44 +1,133 @@
-nav ul li{
-  display:inline;
-  margin-right: 20px;
-}
+
 body{
   background-color: #fff3e6;
 }
-.first{
-  background-color:#ffa94d;
-  height:100px;
+/*
+/////////////////////////
+header
+////////////////////////
+*/
+header{
+    margin-top: -10px;
+    background-color:#ffa94d;
+  position:fixed;
 }
-.top{
+.sub_header{
   background-image: url(../img/header4.jpg);
   background-size: 100% 100%;
   width:960px;
   height:300px;
-  margin:auto;
+  margin-top: 110px;
 }
-.grid_6 h1{
+.first .grid_6 h1{
   margin-top: 10px;
   margin-left: 20px;
   font-family: 'Indie Flower', cursive ;
   font-weight: bolder;
   font-size: 50px;
 }
-.grid_6 ul li{
+.first .grid_6 ul li{
   position:relative;
   top:20px;
   font-family: 'Indie Flower', cursive ;
   font-weight: bolder;
   font-size: 24px;
 }
-a{
-  text-decoration: none;
+.first a{
+  text-decoration:none;
+}
+nav ul li{
+  display:inline;
+  margin-right: 20px;
 }
 
-.grid_6 ul li a:hover{
+.first .grid_6 ul li a:hover{
   color:red;
   font-size:26px;
   font-weight: bold;
 }
-.grid_6 ul li{
-  overflow:hidden;
+/*
+///////////////////////
+main
+//////////////////////
+*/
+.hero_unit{
+  margin-top: 10px;
+  background-color:#ffe6cc;
+  width:1350px;
+  height:800px;
+  background-image: url(../img/header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% 50%;
+}
+.hero_unit h3{
+  font-family: 'Indie Flower', cursive ;
+  font-weight: bolder;
+  font-size: 40px;
+  width:400px;
+  text-align: center;
+  padding-top: 20px;
+  margin:auto;
+  letter-spacing: 5px;
+  line-height: 50px;
+}
+/*
+///////////////////
+footer
+//////////////////
+*/
+
+.footer a,p{
+  color:grey;
+ font-size: 18px;
+}
+ .footer_right p{
+  text-align: right;
+}
+i{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*
+///////////////////
+defenition
+//////////////////
+*/
+.defenition , .defenition_one{
+  margin-top:30px;
+  min-height:300px;
+  margin-bottom: 30px;
+}
+.defenition, .defenition_one h3{
+  text-align: center;
+}
+
+.defenition_one h2{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+.defenition_one h3 a{
+  text-align: center;
+  color:grey;
+  text-decoration: none;
+}
+.defenition_one h3 a:hover{
+  color: #0040ff;
+}
+.defenition_one p{
+    font-size: 24px;
+text-align:  center;
+}
+.defenition_one h4 {
+  text-align:right;
+}
+.defenition_one h4 a{
+  text-decoration: none;
+  color:green;
+}
+.defenition_one h4 a:hover{
+color:red;
 }
