@@ -1,33 +1,40 @@
 <html>
  <head>
    <title>Cooking Secret</title>
-   <link rel="stylesheet" href="../css/960_12_col.css">
-   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="css/960_12_col.css">
+   <link rel="stylesheet" href="css/style.css">
    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
  </head>
-<body>
-  <div class="container_12 first">
-    <header>
-      <div class="grid_6">
-        <h1>Kitchen Secrets</h1>
+ <body>
+  <section class="container_12">
+    <header class="container_12 first">
+      <div class="grid_4">
+        <span class="logo">
+         <img src="img/logo.png"/>
+       </span>
+
       </div>
-      <div class="grid_6">
+      <div class="grid_8" style="float:right;">
        <nav>
          <ul>
            <li><a href="#">Home</a></li>
-           <li><a href="#">Tips</a></li>
-           <li><a href="#">Recipies</a></li>
+           <li><a href="#">Cooking Tips</a></li>
+           <li><a href="recipies.html">Dishes</a></li>
+           <li><a href="#">Drinks</a></li>
            <li><a href="#">About Us</a></li>
         </ul>
        </nav>
       </div>
     </header>
-    <div class="sub_header">
-    </div>
-  </div>
+  </section>
 
-  <div class="container_12 defenition">
+  <section class="rule">
+    <hr width=100%>
+  </section>
+
+  <section class="container_12 defenition">
+
     <div class="grid_4">
         <img src="img/one.jpg"/>
         <h3>Find a Recipe</h3>
@@ -43,15 +50,51 @@
         <h3>Taste and enjoy</h3>
 
     </div>
-  </div>
+  </section>
+
+    <!-- SUB MENU
+  - - - - - - - - - - - - - - - - - -
+  - - - - - - - - - - - - - - - - - -
+   -->
+   <hr>
+   <div class="container_12 menu_one">
+     <div class="grid_3">
+         <img src="img/recipe_menu.png"/>
+         <h4><a href="#Dishes">DISHES</a></h4>
+         <hr style="width:100px;">
+         <p>This Hot-Pink, Ultra-Refreshing Beet Soup Is Your New Summer Staple</p>
+     </div>
+     <div class="grid_3">
+         <img src="img/drinks_menu.png"/>
+         <h4><a href="#Drinks">DRINKS</a></h4>
+         <hr style="width:100px;">
+         <p>Meen Vevichathu, I must say makes me feel instantly at home. Here is a simple yet delicious fish curry my family makes often. Hope you enjoy it as much as I do.</p>
+     </div>
+     <div class="grid_3">
+         <img src="img/tips.png"/>
+         <h4><a href="#Tips">COOKING TIPS</a></h4>
+         <hr style="width:100px;">
+         <p>Malabari Parotta or Kerala Parotta is a layered flatbread made from refined flour (maida). This is a traditional recipe from Kerala.</p>
+     </div>
+     <div class="grid_3">
+         <img src="img/restaurant.png"/>
+         <h4><a href="#Restaurant">RESTAURANTS</a></h4>
+         <hr style="width:100px;">
+         <p>Malabari Parotta or Kerala Parotta is a layered flatbread made from refined flour (maida). This is a traditional recipe from Kerala.</p>
+     </div>
+   </div>
 
   <div class="hero_unit">
-     <h3>Find a recipe and make <br>it tonight</h3>
+     <h4>THE PLACE TO FIND VARIETY OF FOOD ITEMS</h4>
     <!-- Hero Unit-->
   </div>
-
+  <!--
+  Dishes
+  -->
+  <section id="Dishes">
   <div class="container_12 defenition_one">
-    <h2>Recipies</h2>
+    <h2>Dishes</h2>
+    <hr>
     <div class="grid_4">
         <img src="img/recipe2.jpg"/>
         <h3><a href="#">BEET</a></h3>
@@ -63,7 +106,7 @@
         <img src="img/recipe1.jpg"/>
         <h3><a href="#">Meen Vevichathu Recipe</a></h3>
         <hr style="width:100px;">
-        <p>Meen Vevichathu, I must say makes me feel instantly at home. Here is a simple yet delicious fish curry my family makes often. Hope you enjoy it as much as I do.</p>
+        <p>Meen Vevichathu, I must say makes me feel instantly at home. Here is a simple yet delicious fish curry my family makes often.</p>
         <h4><a href="#">read more...</a></h4>
     </div>
     <div class="grid_4">
@@ -74,6 +117,91 @@
         <h4><a href="#">read more...</a></h4>
     </div>
   </div>
+</section>
+
+  <section id="Drinks">
+  <div class="container_12 defenition_one">
+    <h2>Drinks</h2>
+    <hr>
+    <div class="grid_4">
+        <img src="img/drinks1.jpg"/>
+        <h3><a href="#">BEET</a></h3>
+        <hr style="width:100px;">
+        <p>This Hot-Pink, Ultra-Refreshing Beet Soup Is Your New Summer Staple</p>
+        <h4><a href="#">read more...</a></h4>
+    </div>
+    <div class="grid_4">
+        <img src="img/drinks4.png"/>
+        <h3><a href="#">Meen Vevichathu Recipe</a></h3>
+        <hr style="width:100px;">
+        <p>Meen Vevichathu, I must say makes me feel instantly at home. Here is a simple yet delicious fish curry my family makes often.</p>
+        <h4><a href="#">read more...</a></h4>
+    </div>
+    <div class="grid_4">
+        <img src="img/drinks7.png"/>
+        <h3><a href="#">Malabari Parotta</a></h3>
+        <hr style="width:100px;">
+        <p>Malabari Parotta or Kerala Parotta is a layered flatbread made from refined flour (maida). This is a traditional recipe from Kerala.</p>
+        <h4><a href="#">read more...</a></h4>
+    </div>
+  </div>
+</section>
+
+<section id="Tips">
+  <div class="container_12 defenition_one">
+    <h2>Tips</h2>
+    <hr>
+    <div class="grid_4">
+        <img src="img/recipe2.jpg"/>
+        <h3><a href="#">BEET</a></h3>
+        <hr style="width:100px;">
+        <p>This Hot-Pink, Ultra-Refreshing Beet Soup Is Your New Summer Staple</p>
+        <h4><a href="#">read more...</a></h4>
+    </div>
+    <div class="grid_4">
+        <img src="img/recipe1.jpg"/>
+        <h3><a href="#">Meen Vevichathu Recipe</a></h3>
+        <hr style="width:100px;">
+        <p>Meen Vevichathu, I must say makes me feel instantly at home. Here is a simple yet delicious fish curry my family makes often.</p>
+        <h4><a href="#">read more...</a></h4>
+    </div>
+    <div class="grid_4">
+        <img src="img/recipe.jpg"/>
+        <h3><a href="#">Malabari Parotta</a></h3>
+        <hr style="width:100px;">
+        <p>Malabari Parotta or Kerala Parotta is a layered flatbread made from refined flour (maida). This is a traditional recipe from Kerala.</p>
+        <h4><a href="#">read more...</a></h4>
+    </div>
+  </div>
+</section>
+
+<section id="Restaurant">
+  <div class="container_12 defenition_one">
+    <h2>Restaurant</h2>
+    <hr>
+    <div class="grid_4">
+        <img src="img/restaurant2.jpg"/>
+        <h3><a href="#">BEET</a></h3>
+        <hr style="width:100px;">
+        <p>This Hot-Pink, Ultra-Refreshing Beet Soup Is Your New Summer Staple</p>
+        <h4><a href="#">read more...</a></h4>
+    </div>
+    <div class="grid_4">
+        <img src="img/restaurant5.jpg"/>
+        <h3><a href="#">Meen Vevichathu Recipe</a></h3>
+        <hr style="width:100px;">
+        <p>Meen Vevichathu, I must say makes me feel instantly at home. Here is a simple yet delicious fish curry my family makes often.</p>
+        <h4><a href="#">read more...</a></h4>
+    </div>
+    <div class="grid_4">
+        <img src="img/restaurant6.jpg"/>
+        <h3><a href="#">Malabari Parotta</a></h3>
+        <hr style="width:100px;">
+        <p>Malabari Parotta or Kerala Parotta is a layered flatbread made from refined flour (maida). This is a traditional recipe from Kerala.</p>
+        <h4><a href="#">read more...</a></h4>
+    </div>
+  </div>
+</section>
 
   <hr>
   <div class="container_12 footer">
@@ -98,5 +226,5 @@
     </div>
   </div>
 
-</body>
+ </body>
 </html>
