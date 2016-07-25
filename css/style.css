@@ -24,6 +24,10 @@ header{
   margin-top: 110px;
 }
 */
+*{
+  font-family: 'sans-serif' , serif;
+}
+
 .logo{
   margin-top: 100px;
   margin-left: 20px;
@@ -33,10 +37,10 @@ header{
 }
 .first  ul li{
   position:relative;
-  top:30px;
-  font-family: 'Indie Flower', cursive ;
+  top:40px;
+  //font-family: 'Indie Flower', cursive ;
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 20px;
   margin-left: 10px;
 }
 header a{
@@ -172,11 +176,11 @@ text-align:  center;
 }
 .defenition_one h4 a{
   text-decoration: none;
-  color:grey;
+  color:#84634c;
   margin-right: 20px;
 }
 .defenition_one h4 a:hover{
-color:#84634c;
+color:brown;
 }
 
 /*
