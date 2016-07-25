@@ -85,22 +85,24 @@ main
 .hero_unit{
   margin-top: 10px;
   background-color:#ffe6cc;
-  width:1350px;
+  width:100%;
   height:600px;
   color:#84634c;
-  background-image: url(../img/header.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 50% 60%;
+  text-align:center;
+}
+.hero_img{
+  max-width:100%;
+  margin-left:auto;
+  margin-right:auto;
 }
 .hero_unit h4{
   font-weight: bolder;
   font-size: 24px;
-  text-align: center;
   padding-top: 20px;
   margin-top:0px;
   letter-spacing: 5px;
   line-height: 50px;
+  text-transform: uppercase;
 }
 /*
 ///////////////////
@@ -132,6 +134,9 @@ defenition
 }
 .defenition, .defenition_one h3{
   text-align: center;
+}
+.defenition_one .grid_4 h3 a{
+  color:#84634c;
 }
 .defenition_one img{
   height:200px;
@@ -167,10 +172,11 @@ text-align:  center;
 }
 .defenition_one h4 a{
   text-decoration: none;
-  color:green;
+  color:grey;
+  margin-right: 20px;
 }
 .defenition_one h4 a:hover{
-color:red;
+color:#84634c;
 }
 
 /*
@@ -188,6 +194,7 @@ recipes.html
 }
 .recipe_detail{
   margin-top: 10px;
+  margin-bottom: 40px;
 }
 .recipe_detail img{
   height:200px;
@@ -204,4 +211,42 @@ recipes.html
 }
 .recipe_detail a:hover{
   color:violet;
+}
+/*
+//////////////////
+ruler
+/////////////////
+*/
+.container_12 hr{
+  width:100px;
+}
+
+/*
+//////////////////
+recipe_details
+/////////////////
+*/
+.recipe_Details .grid_4 img{
+   margin-top: 50px;
+   margin-right: 10px;
+   padding:0px;
+   border:2px solid green;
+}
+.recipe_details .top_container {
+  border-left:1px solid grey;
+
+}
+ .recipe_details .grid_8 h2,h3,p{
+   margin-left: 10px;
+   text-decoration: none;
+   line-height: 25px;
+ }
+ .recipe_details .grid_8 h2,h3{
+   color:#84634c;
+ }
+.recipe_details li{
+  line-height: 30px;
+  color:grey;
+  font-size: 20px;
+  text-transform:capitalize;
 }
